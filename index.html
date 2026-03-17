@@ -1,6 +1,63 @@
 <!DOCTYPE html>
 <html>
-  <body>
-    <h1>Charge for a charge</h1>
-  </body>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Charger Renting Tool</title>
+        <link rel="icon" href="assets/icon.png" type="image/png">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="assets/style.css">
+        <script type="module" src="assets/main.js"></script>
+    </head>
+    <body>
+    <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;background-color: #30DFFF;border-radius: 5px">
+    <h1 class="mainHeader">Charge for a Charge - Charger Renting Assistant</h1>
+    </div>
+    <div style="height: 2vh"></div>
+    <div style="display: flex;align-items: center;">
+    <img src="assets/cfac.svg">
+        <span class="basicText" style="margin-left: 5px"><b>This is a CFAC Official App.</b>
+            <br>
+        <strong class="basicText" style="font-size:medium">This app is trustworthy.</strong>
+        </span>
+    </div>
+    <h1 style="height: 0.5vh;width: 30vw;background-color: white;border-radius: 123px"></h1>
+    <div class="scrollBackground">
+        <h1 class="mainHeader" style="border-bottom: 3px solid white;padding-bottom: 6px">Actively Rented Chargers</h1>
+        <div class="scrollContainer">
+            <ol id="rented">
+
+            </ol>
+        </div>
+    </div>
+    <h1 style="height: 0.5vh;width: 30vw;background-color: white;border-radius: 123px"></h1>
+    <h1 class="mainHeader">Adding and Removing</h1>
+    <h1 style="height: 0.35vh;width: 15vw;background-color: white;border-radius: 123px"></h1>
+    <h1 class="mainHeader" style="font-size: x-large">Adding Rentals</h1>
+    <input type="text" class="inputClass" id="addingForm">
+    <h1 style="height: 0.35vh;width: 15vw;background-color: white;border-radius: 123px"></h1>
+    <h1 class="mainHeader" style="font-size: x-large">Removing Rentals</h1>
+    <input type="text" class="inputClass" id="removingForm">
+         <div class="bottomColoredBar dropdown"></div>
+         <div class="bottomColoredTopBorder dropdown">
+         </div>
+         <button class="dropdownButton" id="closebutton">▲</button>
+         <div class="baselineContainer dropdown">
+    <span class="sourcesText dropdown">
+        Created by <i>Charge for a Charge</i> LLC. (C) 2026.
+    </span>
+         <div class="sourcesGap dropdown">|</div>
+     <span class="sourcesText dropdown">
+        Skylar Conaghan, Tristan Cook, Kameron Kriens
+     </span>
+             <div class="sourcesGap dropdown">|</div>
+         <img src="https://companieslogo.com/img/orig/GAN.D-3d0e0355.png?t=1720244491" id="ganImage" style="height: 2vh;" class="dropdown">
+             <div class="sourcesGap dropdown">|</div>
+        <span class="sourcesText dropdown">
+            Gallium Nitride Technology
+        </span>
+             <div class="sourcesGap dropdown">|</div>
+         </div>
+    </body>
 </html>

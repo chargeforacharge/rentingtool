@@ -1,0 +1,100 @@
+@font-face {
+    font-family: "Arimo";
+    src: url(arimo-main.ttf);
+}
+body{
+    background-color: rgb(1, 1, 28);
+}
+.baselineContainer{
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    pointer-events: none;
+}
+.bottomColoredBar{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 3vh;
+    width: 100vw;
+    background-color: rgb(20, 45, 72);
+}
+.bottomColoredTopBorder{
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 3.3vh;
+    z-index: -555;
+    width: 100vw;
+    background-color: rgb(53, 184, 184);
+}
+.sourcesText{
+    font-family: "Arimo";
+    color: white;
+    font-size: xx-large;
+}
+.sourcesGap{
+    color: white;
+    font-size: 40px;
+    font-weight: bolder;
+    background-color: white;
+    height: 0;
+    display: inline-block;
+}
+.dropdownButton{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    height: 3.3vh;
+    width: 14vh;
+    font-family: "Arimo";
+    color: white;
+    font-size: xx-large;
+    background-color: #232323;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.basicText, .listItem{
+    font-family: Arimo;
+    color: white;
+    font-size: xx-large
+}
+.scrollBackground{
+    background-color: #3DCCFF;
+    width: 30vw;
+    height: 36vh;
+    border-radius: 15px;
+    border: 5px solid white;
+    overflow-y: scroll;
+}
+.scrollContainer{
+    scroll-behavior: smooth;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.dropdownButton:active{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    height: 3.3vh;
+    width: 14vh;
+    font-family: "Arimo";
+    color: white;
+    font-size: xx-large;
+    background-color: #232323;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.mainHeader{
+    font-family: "Arimo";
+    color: white;
+    font-size: xx-large;
+}
+.inputClass{
+    font-size: xx-large;
+    color: white;
+    font-family: "Arimo";
+    background-color: #3DCCFF;
+}
